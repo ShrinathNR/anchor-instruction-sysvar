@@ -1,5 +1,5 @@
 use anchor_lang::prelude::*;
-use solana_program::{program_error::ProgramError};
+use solana_program::program_error::ProgramError;
 
 pub const PUBKEY_SERIALIZED_SIZE: usize = 32;
 pub const SIGNATURE_SERIALIZED_SIZE: usize = 64;
